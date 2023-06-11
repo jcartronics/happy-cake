@@ -1,18 +1,19 @@
 import React from 'react'
+import { Link, NavLink } from 'react-router-dom'
 
 export const Navbar = () => {
   return (
     <div className='navbar'>
         <ul className='nav-list'>
             <li>
-                <a href="../views/Home"><i>🏠</i>Home</a>
+                <NavLink to={"/"}><i>🏠</i>Home</NavLink>
             </li>
             <li>
-                <a href="../views/Contacto"><i>📒</i>Contacto</a>
+                <NavLink to={"/contacto"}><i>📒</i>Contacto</NavLink>
             </li>
         </ul>
         <div className="logo">
-            <a>Happy Cake</a>
+            <Link to={"/"}>Happy Cake</Link>
             <i>🎂</i>
         </div>
     </div>
