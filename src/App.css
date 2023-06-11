@@ -68,21 +68,49 @@
   list-style: none;
 }
 
-.home {
+.page {
   text-align: center;
 }
 
-.home .title {
+.page .title {
   font-weight: 300;
   margin-bottom: 0;
 }
 
-.home .sub-title {
+.page .sub-title {
   margin: 0;
   padding: 10px;
 }
 
-.home .home-logo{
+.page .home-logo{
   font-size: 60px;
   font-style: normal;
+}
+
+.page-error {
+  text-align: center;
+}
+
+.form-contacto {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-contacto input,
+textarea {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+
+.form-contacto input[type="submit"] {
+  margin-top: 20px;
+  width: 60px;
+  height: 30px;
+  background-color: #dc3546;
+  color: white;
+  border: none;
+  border-radius: 5%;
 }
