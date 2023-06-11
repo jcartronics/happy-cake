@@ -1,9 +1,12 @@
 import './App.css';
+import { Navbar } from './components/Navbar';
+import { Home } from './views/Home';
 
 function App() {
   return (
     <div>
-      <h1>Hello World!</h1>
+      <Navbar/>
+      <Home/>
     </div>
   );
 }
